@@ -3,7 +3,7 @@ Lucerne Festival Data Extraction and PostgreSQL Interaction
 Description
 
 This repository contains Python scripts for extracting event details from the Lucerne Festival website and interacting with a PostgreSQL database to store and manage the extracted data. The process involves:
-1.	Data Extraction: The script extracts event details such as title, venue, date, time, artists, programs, and image links from the Lucerne Festival website. It iterates through event links and retrieves information for each event. The extracted data is stored in a Pandas DataFrame and exported to a CSV file named "lucerne_festival_data.csv".
+1.	Data Extraction: The script extracts event details such as title, venue, date, time, artists, programs, and image links from the Lucerne Festival website. It iterates through event links and retrieves information for each event. The extracted data is stored in a Pandas DataFrame and exported to a CSV file named "Extracted_lucerne_festival_data.csv".
 2.	Inserting into PostgreSQL: Python code is provided to interact with a PostgreSQL database and perform the following tasks:
 •	Create tables for storing event-related data.
 •	Insert unique values into separate tables for venues, artists, programs, and titles.
